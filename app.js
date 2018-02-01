@@ -58,7 +58,7 @@ var clickCounter = initialValue;
 // --------------------------------------------------------------
 
 // Whenever a user clicks the click button
-$("#click-button").on("click", function() {
+/*$("#click-button").on("click", function() {
 
     // Reduce the clickCounter by 1
     clickCounter--;
@@ -99,7 +99,7 @@ $("#restart-button").on("click", function() {
     $("#click-value").text(clickCounter);
 
 
-});
+});*/
 var provider = new firebase.auth.GoogleAuthProvider();
 
 function googleSignin() {
