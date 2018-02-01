@@ -13,7 +13,7 @@ var config = {
 firebase.initializeApp(config);
 
 // Create a variable to reference the database
-var database = firebase.database();
+/*var database = firebase.database();
 
 
 // Use the below initialValue
@@ -26,18 +26,18 @@ var clickCounter = initialValue;
 
 // At the initial load and on subsequent data value changes, get a snapshot of the current data. (I.E FIREBASE HERE)
 // This callback keeps the page updated when a value changes in firebase.
-// HINT: Assuming 'database' is our database variable, use...
+// HINT: Assuming 'database' is our database variable, use...*/
 
 
 
 
-database.ref().on("value", function(snapshot) {
+/*database.ref().on("value", function(snapshot) {
     console.log(snapshot.val());
     $("#click-value").text(snapshot.val().clickCount);
     clickCounter = snapshot.val().clickCount;
 }, function(errorObject) {
     console.log("The read failed: " + errorObject.code);
-});
+});*/
 
 // We are now inside our .on function...
 
